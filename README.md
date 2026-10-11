@@ -2,6 +2,9 @@
 
 Learn Web3 in short lessons, pass the quiz, earn BOT. An educational dApp that onboards new users to BOT Chain.
 
+**Live:** https://quiz2earn.vercel.app
+**Contract (testnet):** [`0x37fdfb7e3b14d9f84072f43a24c0a412a1bcf4e4`](https://scan.bohr.life/address/0x37fdfb7e3b14d9f84072f43a24c0a412a1bcf4e4)
+
 Built for the 45-in-90 BOTChain Challenge.
 Chain: BOTChain Testnet/Mainnet
 Tech: Next.js, Solidity, Wagmi, Tailwind
