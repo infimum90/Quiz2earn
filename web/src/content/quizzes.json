@@ -1,0 +1,272 @@
+[
+  {
+    "slug": "wallets",
+    "title": "Your wallet is not an app",
+    "topic": "Basics",
+    "minutes": 4,
+    "summary": "What a wallet really holds, and why your recovery phrase is the only thing that matters.",
+    "lesson": [
+      "A crypto wallet does not store coins. Your coins live on the blockchain. The wallet stores the keys that prove they are yours, a bit like a signature that only you can make.",
+      "When you create a wallet, it shows you a recovery phrase: 12 or 24 ordinary words. Those words can rebuild your keys on any phone, in any wallet app. Whoever has the words has the money. There is no bank to call and no password reset.",
+      "Your wallet address (it starts with 0x on BOT Chain) is safe to share. It works like an account number: people need it to send you tokens. Your recovery phrase is never safe to share, not with support staff, not with a friend, not with a website that says it needs it to verify you.",
+      "Write the phrase on paper and keep it somewhere private. A screenshot in your gallery or a note in WhatsApp is one hacked phone away from being gone."
+    ],
+    "questions": [
+      {
+        "q": "Where are your tokens actually stored?",
+        "options": ["Inside the wallet app on your phone", "On the blockchain", "On the wallet company's server", "In your SIM card"],
+        "answer": 1,
+        "explain": "The blockchain records who owns what. Your wallet only holds the keys that let you move it."
+      },
+      {
+        "q": "Someone in a Telegram group says they are from support and need your recovery phrase to fix a problem. What do you do?",
+        "options": ["Send it, they are support", "Send only the first 6 words", "Refuse. Nobody legitimate ever needs it", "Ask them to call you first"],
+        "answer": 2,
+        "explain": "Real support never asks for your recovery phrase. Anyone who asks is trying to empty your wallet."
+      },
+      {
+        "q": "Which of these is safe to share publicly?",
+        "options": ["Your wallet address", "Your recovery phrase", "Your private key", "A photo of your recovery phrase"],
+        "answer": 0,
+        "explain": "Your address is like an account number. People need it to send you tokens, and it cannot be used to take them."
+      },
+      {
+        "q": "You lose your phone. What gets your wallet back?",
+        "options": ["Your phone number", "Your email password", "Your recovery phrase", "The wallet's customer care line"],
+        "answer": 2,
+        "explain": "The recovery phrase rebuilds your keys in any wallet app. Without it, nobody can restore access."
+      },
+      {
+        "q": "What is the best way to keep your recovery phrase?",
+        "options": ["Screenshot in your gallery", "Written on paper, kept private", "Saved in a WhatsApp chat to yourself", "In your email drafts"],
+        "answer": 1,
+        "explain": "Offline paper cannot be hacked. Anything on your phone or in the cloud can be."
+      }
+    ]
+  },
+  {
+    "slug": "gas",
+    "title": "Gas: the small fee behind every action",
+    "topic": "Basics",
+    "minutes": 3,
+    "summary": "Why you pay a fee to use a blockchain, who receives it, and why it is paid in BOT.",
+    "lesson": [
+      "Every action that changes the blockchain, like sending tokens or claiming a reward, has to be processed by the computers that run the network. Gas is the fee you pay them for that work.",
+      "On BOT Chain, gas is paid in BOT, the chain's native token. That is why a wallet with only USDT cannot send anything: it needs a little BOT to pay the fee, the same way a car full of passengers still needs fuel.",
+      "Reading the blockchain is free. Checking a balance or viewing a transaction on the explorer costs nothing. Only writing costs gas.",
+      "If a transaction fails, for example because a contract rejected it, the gas used up to that point is still spent. That is why your wallet shows an estimate before you confirm."
+    ],
+    "questions": [
+      {
+        "q": "What is gas?",
+        "options": ["A token you can farm", "The fee paid to process a transaction", "A type of wallet", "Interest earned on savings"],
+        "answer": 1,
+        "explain": "Gas pays the network for processing your transaction."
+      },
+      {
+        "q": "Which token pays gas on BOT Chain?",
+        "options": ["USDT", "ETH", "BOT", "Naira"],
+        "answer": 2,
+        "explain": "BOT is BOT Chain's native token, so it pays for every transaction."
+      },
+      {
+        "q": "Your wallet has 100 USDT and 0 BOT. Can you send the USDT?",
+        "options": ["Yes, fees come out of the USDT", "No, you need some BOT for gas", "Yes, sending USDT is free", "Only on weekends"],
+        "answer": 1,
+        "explain": "Fees are always paid in the native token. With no BOT, the transaction cannot be sent."
+      },
+      {
+        "q": "Which of these costs gas?",
+        "options": ["Checking your balance", "Viewing a transaction on the explorer", "Claiming a reward", "Copying your address"],
+        "answer": 2,
+        "explain": "Claiming writes to the blockchain, so it costs gas. Reading is free."
+      },
+      {
+        "q": "A transaction fails. What happens to the gas?",
+        "options": ["It is always refunded", "The gas used is still spent", "It doubles", "It is sent to your friend"],
+        "answer": 1,
+        "explain": "The network did the work, so the gas used is paid even when the transaction fails."
+      }
+    ]
+  },
+  {
+    "slug": "stablecoins",
+    "title": "Stablecoins and USDT on BOT Chain",
+    "topic": "Money",
+    "minutes": 4,
+    "summary": "Why some tokens stay close to one dollar, and what that means for saving and sending money.",
+    "lesson": [
+      "Most crypto prices move a lot. A stablecoin is a token designed to stay close to a fixed value, usually one US dollar. USDT (Tether) is the most widely used one, and it is the stablecoin available on BOT Chain.",
+      "For many people in Nigeria, stablecoins are how they hold dollar value without a domiciliary account, or receive payment from clients abroad. One USDT sent on BOT Chain arrives in seconds, and the fee is paid in a small amount of BOT.",
+      "Stable does not mean risk-free. A stablecoin is only as good as the company backing it. And the network matters: USDT on BOT Chain is a different token from USDT on another chain. Sending it to an address on the wrong network can mean losing it.",
+      "Always check the network before you send, and test with a small amount first when sending somewhere new."
+    ],
+    "questions": [
+      {
+        "q": "What is a stablecoin designed to do?",
+        "options": ["Double in price every year", "Stay close to a fixed value, like 1 USD", "Pay gas on every chain", "Replace your wallet"],
+        "answer": 1,
+        "explain": "A stablecoin aims to hold a steady value, usually one US dollar."
+      },
+      {
+        "q": "Which stablecoin is available on BOT Chain?",
+        "options": ["USDC", "cUSD", "USDT", "DAI"],
+        "answer": 2,
+        "explain": "USDT is the stablecoin on BOT Chain."
+      },
+      {
+        "q": "You send USDT on BOT Chain. What pays the fee?",
+        "options": ["A small amount of BOT", "The USDT itself", "Nothing, it is free", "Your airtime"],
+        "answer": 0,
+        "explain": "Gas is always paid in the native token, BOT."
+      },
+      {
+        "q": "Why does the network matter when sending USDT?",
+        "options": ["It doesn't matter", "USDT on different chains are different tokens, and the wrong network can lose funds", "Some networks charge in naira", "Only the colour of the logo changes"],
+        "answer": 1,
+        "explain": "Each chain has its own USDT. Sending to the wrong network can make the funds hard or impossible to recover."
+      },
+      {
+        "q": "What should you do the first time you send to a new address?",
+        "options": ["Send everything at once", "Send a small test amount first", "Send it twice to be sure", "Ask a stranger to send it for you"],
+        "answer": 1,
+        "explain": "A small test confirms the address and network before you risk the full amount."
+      }
+    ]
+  },
+  {
+    "slug": "scams",
+    "title": "How to spot a crypto scam",
+    "topic": "Safety",
+    "minutes": 5,
+    "summary": "The patterns behind almost every scheme that has taken people's money, and how to say no early.",
+    "lesson": [
+      "Most crypto scams are old scams with new words. If someone promises a fixed daily or monthly return, like 30% a month guaranteed, that is a red flag. Real markets do not guarantee anything.",
+      "Watch for pressure. \"Only 2 slots left\", \"withdrawals open after you add more\", \"bring 3 people to unlock your bonus\". Schemes that pay early members with money from new members always collapse, and the people who joined last lose the most. Nigeria has seen this many times, from MMM to trading platforms that froze withdrawals overnight.",
+      "Fake websites and fake tokens are the other big one. A link in a DM, an airdrop you never signed up for, a site that looks almost right but the spelling is slightly off. Before you connect your wallet or approve anything, check the address bar and check the contract on the explorer.",
+      "A good rule: if you can't explain where the profit comes from, you are probably the profit."
+    ],
+    "questions": [
+      {
+        "q": "A platform guarantees 30% profit every month. What does that tell you?",
+        "options": ["It is a great investment", "It is a major red flag", "It is backed by the government", "It is a stablecoin"],
+        "answer": 1,
+        "explain": "Guaranteed high returns are the most common sign of a scam."
+      },
+      {
+        "q": "\"Withdrawals will open once you deposit more.\" This is most likely:",
+        "options": ["Normal security", "A sign the platform cannot pay", "A bank holiday rule", "A gas fee"],
+        "answer": 1,
+        "explain": "Legitimate platforms do not hold your money hostage for more deposits."
+      },
+      {
+        "q": "A scheme pays old members using money from new members. What happens eventually?",
+        "options": ["It grows forever", "It collapses and late joiners lose", "Everyone gets rich", "It becomes a stablecoin"],
+        "answer": 1,
+        "explain": "Without real profit, it runs out of new money and collapses."
+      },
+      {
+        "q": "You get a DM with a link to claim a free airdrop. What should you do first?",
+        "options": ["Connect your wallet quickly before it ends", "Share it with friends", "Check the link and the project's official channels before touching it", "Enter your recovery phrase to verify"],
+        "answer": 2,
+        "explain": "Unsolicited links are the most common way wallets get drained. Verify through official sources."
+      },
+      {
+        "q": "Where can you check what a token contract actually is?",
+        "options": ["The block explorer, scan.botchain.ai", "A WhatsApp broadcast", "The person who sent you the link", "Nowhere, you have to trust it"],
+        "answer": 0,
+        "explain": "The explorer shows the real contract, its creator and its activity."
+      }
+    ]
+  },
+  {
+    "slug": "explorer",
+    "title": "Read the chain yourself",
+    "topic": "BOT Chain",
+    "minutes": 4,
+    "summary": "Use the block explorer to check any transaction, wallet or contract without trusting anyone.",
+    "lesson": [
+      "A blockchain is public. Anyone can check any transaction, and a block explorer is the website that makes that easy. For BOT Chain mainnet, that is scan.botchain.ai.",
+      "Every transaction gets a hash, a long ID starting with 0x. Paste it into the explorer and you can see whether it succeeded, who sent it, who received it, how much gas it used and when it happened.",
+      "This is your best defence against \"I've sent it\" stories. If someone says they paid you, ask for the transaction hash and check it yourself. A screenshot can be faked. The explorer cannot.",
+      "You can also look up a contract address and see its code, if the developer verified it, plus every interaction with it. That is how you check a project is real before using it, including this one."
+    ],
+    "questions": [
+      {
+        "q": "What is a block explorer?",
+        "options": ["A wallet app", "A website for viewing blockchain data", "A mining machine", "A type of token"],
+        "answer": 1,
+        "explain": "An explorer lets anyone browse transactions, wallets and contracts."
+      },
+      {
+        "q": "What is BOT Chain mainnet's explorer?",
+        "options": ["botchain.ai/wallet", "scan.botchain.ai", "etherscan.io", "botscan.ng"],
+        "answer": 1,
+        "explain": "scan.botchain.ai is the official explorer for BOT Chain mainnet."
+      },
+      {
+        "q": "Someone sends a screenshot saying they've paid you. What is the reliable check?",
+        "options": ["Trust the screenshot", "Ask for the transaction hash and check it on the explorer", "Call their bank", "Wait for them to send another screenshot"],
+        "answer": 1,
+        "explain": "The explorer shows what actually happened. Screenshots are easy to fake."
+      },
+      {
+        "q": "What does a transaction hash let you do?",
+        "options": ["Reverse the transaction", "Look up the exact transaction and its status", "Recover a lost wallet", "Pay less gas"],
+        "answer": 1,
+        "explain": "The hash is the transaction's unique ID. It lets anyone find and verify it."
+      },
+      {
+        "q": "Is data on a public blockchain visible to everyone?",
+        "options": ["No, only to the sender", "Only to banks", "Yes, anyone can view it", "Only after 30 days"],
+        "answer": 2,
+        "explain": "Public blockchains are transparent. Anyone can read every transaction."
+      }
+    ]
+  },
+  {
+    "slug": "smart-contracts",
+    "title": "Smart contracts and AI agents",
+    "topic": "BOT Chain",
+    "minutes": 5,
+    "summary": "Code that holds and moves money by itself, and why that matters for what gets built on BOT Chain.",
+    "lesson": [
+      "A smart contract is a program that lives on the blockchain. Once deployed, it runs exactly as written: no manager can change the rules for one person or pause payment because they feel like it, unless the code allows it.",
+      "This quiz is an example. When you submit your answers, a smart contract checks them and, if you pass, sends you BOT directly. Nobody approves it by hand. You can read the contract on the explorer and confirm the rules yourself.",
+      "BOT Chain is built for this kind of automation, with a focus on AI. An AI agent is software that can take actions for you, like paying a bill when it is due or moving savings into a stablecoin. Smart contracts give those agents rules they cannot break: an agent can only spend what the contract allows.",
+      "The trade-off is that code can have bugs, and a transaction cannot be undone. Use contracts you can verify, start with small amounts, and only approve what you understand."
+    ],
+    "questions": [
+      {
+        "q": "What is a smart contract?",
+        "options": ["A PDF signed online", "A program on the blockchain that runs as written", "A lawyer who works with crypto", "A type of stablecoin"],
+        "answer": 1,
+        "explain": "It is code deployed on-chain that executes its rules automatically."
+      },
+      {
+        "q": "Who decides whether you get your reward in this quiz?",
+        "options": ["A moderator", "The Quiz2Earn team by hand", "The smart contract, based on your answers", "A random draw"],
+        "answer": 2,
+        "explain": "The contract scores your answers and pays automatically if you pass."
+      },
+      {
+        "q": "What is an AI agent?",
+        "options": ["A customer care robot that asks for your recovery phrase", "Software that can take actions on your behalf", "A new stablecoin", "A hardware wallet"],
+        "answer": 1,
+        "explain": "AI agents act for you. On-chain, contracts limit what they can do."
+      },
+      {
+        "q": "How do smart contracts help keep AI agents safe?",
+        "options": ["They give agents unlimited access", "They set rules the agent cannot break, like spending limits", "They hide the agent's actions", "They don't, agents ignore contracts"],
+        "answer": 1,
+        "explain": "A contract can cap what an agent spends, and the rules are public."
+      },
+      {
+        "q": "A transaction to a buggy contract goes wrong. Can it be reversed?",
+        "options": ["Yes, by calling support", "Yes, within 24 hours", "Usually not. Blockchain transactions are final", "Only if you paid more gas"],
+        "answer": 2,
+        "explain": "On-chain transactions are final, which is why you should verify contracts and start small."
+      }
+    ]
+  }
+]
